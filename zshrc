@@ -38,3 +38,4 @@ prompt_context() {
     prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"
   fi
 }
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
