@@ -8,3 +8,4 @@ alias serve='ruby -run -e httpd . -p 8000'  # Or python -m SimpleHTTPServer :)
 tickets() {
   open https://kitt.lewagon.com/camps/$1/tickets
 }
+alias propen="gh pr view"
