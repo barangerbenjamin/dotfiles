@@ -47,3 +47,4 @@ export NVM_DIR="$HOME/.nvm"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
