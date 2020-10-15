@@ -59,3 +59,4 @@ export BROWSER=/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.e
 sudo /etc/init.d/postgresql start > /dev/null
 export DISPLAY=192.168.16.1:0
 sudo /etc/init.d/redis-server start > /dev/null
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
